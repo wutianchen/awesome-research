@@ -149,7 +149,7 @@ The lecture gives ~50,000 for GPT-2/3 and ~100,000 for GPT-3.5/4. Real output fr
 
 The tokenizer fixes the **vocabulary size $V$**, and $V$ sets both ends of a GPT model,
 the lecture's "Transformer Causal Encoder" (see [Transformer](../models/transformer.md)
-and [causal self-attention](../attention-is-all-you-need/self-attention.md#causal-masked-self-attention)):
+and [causal self-attention](../techniques/attention-is-all-you-need/self-attention.md#causal-masked-self-attention)):
 
 ```
 text ──BPE──► token IDs ──► embedding table (V × d) ──► causal transformer stack

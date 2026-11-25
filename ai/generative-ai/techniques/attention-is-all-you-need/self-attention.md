@@ -218,8 +218,8 @@ feed-forward layer, and each of the two has a **residual connection** (its input
 added to its output, which helps gradients flow) and **layer normalisation** (each
 embedding is standardised, which keeps values small). Blocks are stacked $N$ times, each
 starting from vectors that are already contextual. See
-[Transformer → The encoder](../models/transformer.md#the-encoder) for the whole block,
-and [Embedding → Contextual Embedding](../embedding.md#contextual-embedding) for what the
+[Transformer → The encoder](../../models/transformer.md#the-encoder) for the whole block,
+and [Embedding → Contextual Embedding](../../embedding.md#contextual-embedding) for what the
 resulting vectors are.
 
 ## Why it replaced RNNs
