@@ -29,7 +29,7 @@ Lecture 8's example, in two steps:
      principled, innovative `<MASK>` who…"*
    - **Labels:** *mission*, *Management*, *leaders*
 2. **Train a network to fill in the blanks.** For text, this is ordinary sequence
-   labeling with a [transformer encoder](transformer.md#the-encoder).
+   labeling with a [transformer encoder](../models/transformer.md#the-encoder).
 
 The useful result isn't the blank-filling. To fill in blanks well, the model has to learn
 how words relate (grammar, meaning, facts), so **it learns a good representation of the

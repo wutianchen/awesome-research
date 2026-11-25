@@ -3,7 +3,7 @@
 **BERT** (*Bidirectional Encoder Representations from Transformers*; Devlin et al.,
 Google, 2018) is a [transformer encoder](transformer.md#the-encoder) pretrained on a
 large amount of English text with
-[self-supervised learning](self-supervised-learning.md). It turns a sentence into
+[self-supervised learning](../learning-algorithms/self-supervised-learning.md). It turns a sentence into
 contextual embeddings, one per token, that you **fine-tune** for your own task.
 
 > Sources: MIT 15.773
